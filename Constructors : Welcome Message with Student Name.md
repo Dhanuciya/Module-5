@@ -12,8 +12,19 @@ To write a Python program that creates a **Student** class with a **default cons
 
 ## 🧾 Program
 
-Add code here
+~~~
+class student:
+    def __init__(self):
+        print("This is non parametrized constructor")
+    def display_welcome(self,name):
+        print(f"Hello {name}")
+name=input()
+studentinstance=student()
+studentinstance.display_welcome(name)
+~~~
 
 ## Output
+<img width="838" height="220" alt="image" src="https://github.com/user-attachments/assets/14e685bf-48b3-4811-9415-2e25de0b8e36" />
 
 ## Result
+Thus the program demonstrates how to implement a destructor in Python using a simple class has been executed successfully.
